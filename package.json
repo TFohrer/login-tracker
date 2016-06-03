@@ -1,0 +1,16 @@
+{
+  "title": "Login Tracker",
+  "name": "login-tracker",
+  "version": "0.0.1",
+  "description": "Track login-processes extension for BA Thesis",
+  "main": "index.js",
+  "author": "Tarek Fohrer",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
