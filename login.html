@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body,html{
+        margin: 0;
+    }
+
+    .container{
+        width: 250px;
+        margin: 100px auto;
+    }
+
+    .input-wrapper{
+        margin: 5px 0;
+        width: 250px;
+        float: left;
+        display: block;
+    }
+    input{
+        float: left;
+        width: 100%;
+    }
+
+</style>
+<body>
+
+<div class="container">
+    <div class="input-wrapper">
+        <label for="username">Username</label>
+        <input id="username" type="text">
+    </div>
+
+    <div class="input-wrapper">
+        <label for="password">Password</label>
+        <input id="password" type="password">
+    </div>
+
+    <!-- hidden input field for testing -->
+    <input id="hidden" type="hidden" value="I'm an empty input field">
+
+    <!-- other input fields that we aren't interested in -->
+    <input type="checkbox">
+    <input type="button" value="Login">
+
+</div>
+
+</body>
+</html>
