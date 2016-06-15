@@ -29,7 +29,7 @@
 <body>
 
 <div class="container">
-    <div class="input-wrapper">
+    <!--<div class="input-wrapper">
         <label for="username">Username</label>
         <input id="username" type="text">
     </div>
@@ -37,14 +37,33 @@
     <div class="input-wrapper">
         <label for="password">Password</label>
         <input id="password" type="password">
-    </div>
+    </div> -->
+
+    <form>
+        <div class="input-wrapper">
+            <label for="username">Username</label>
+            <input id="username" type="text">
+        </div>
+
+        <div class="input-wrapper">
+            <label for="password">Password</label>
+            <input id="password" type="password">
+        </div>
+
+        <div class="input-wrapper">
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
 
     <!-- hidden input field for testing -->
     <input id="hidden" type="hidden" value="I'm an empty input field">
 
     <!-- other input fields that we aren't interested in -->
     <input type="checkbox">
-    <input type="button" value="Login">
+    <input type="radio">
+    <input type="button" value="Button">
+    <input type="number" >
 
 </div>
 

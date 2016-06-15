@@ -3,11 +3,14 @@
   "name": "login-tracker",
   "version": "0.0.1",
   "description": "Track login-processes extension for BA Thesis",
-  "main": "index.js",
+  "main": "lib/main.js",
   "author": "Tarek Fohrer",
   "engines": {
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
+  },
+  "permissions": {
+    "unsafe-content-script": true
   },
   "license": "MIT",
   "keywords": [
