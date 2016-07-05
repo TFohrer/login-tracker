@@ -10,6 +10,8 @@
     "fennec": ">=38.0a1"
   },
   "permissions": {
+    "private-browsing": true,
+    "//": "TODO REMOVE unsage content script for prod",
     "unsafe-content-script": true
   },
   "license": "MIT",

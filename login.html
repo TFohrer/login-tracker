@@ -68,4 +68,23 @@
 </div>
 
 </body>
+<script src="lib/jquery-1.12.4.min.js"></script>
+<script>
+
+    (function ($) {
+
+        $('form').submit(function(event){
+            event.preventDefault();
+            if($('#username').val() && $('input[type="password"]').val()){
+                $('.container').html('<div><p>successfully logged in </p></div>')
+            }
+            else{
+                console.log('no username or pw inserted');
+            }
+           console.log('form submit');
+        });
+
+    })(jQuery);
+
+</script>
 </html>
