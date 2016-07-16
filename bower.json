@@ -1,0 +1,24 @@
+{
+  "name": "login-tracker",
+  "description": "Track login-processes extension for BA Thesis",
+  "main": "lib/main.js",
+  "authors": [
+    "Tarek Fohrer"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "homepage": "https://github.com/TFohrer/login-tracker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zxcvbn": "^4.3.0",
+    "jquery-1.12.4.min": "https://code.jquery.com/jquery-1.12.4.min.js"
+  }
+}
