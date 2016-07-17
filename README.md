@@ -4,15 +4,18 @@ Browser-Extension for BA Thesis "Quantifizierung von Web-Authentifizierungs-Task
 ## What it does
 Track how often user logs in, how much time he spends and what technique are beeing used (PW-Managers, In-Browser-PW-Manager)
 
+EDIT: Password strength measured with zxcvbn-Plugin(https://github.com/dropbox/zxcvbn)  
+
 ## Development notes
 
 Install all bower dependencies via
  
     $ bower install
 
-simply run the extension with profile previous created profile (see: https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles):
+Simply run the extension with previous created profile (see: https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles):
 
     $ jpm run --profile login-tracker
+
 
 ## Debugging
 ### live reload for development
@@ -29,6 +32,11 @@ simply run the extension with profile previous created profile (see: https://sup
     jpm watchpost --post-url http://localhost:8888
 
 
+## Frameworks
+
+* [jQuery (1.12.4)](https://jquery.com/) for easier DOM traversal
+* [simple-storage](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/simple-storage) is used for saving user id to identify user across Firefox restarts.
+* [zxcvbn](https://github.com/dropbox/zxcvbn) to estimate password strength
 
 ## Testing
 
