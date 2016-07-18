@@ -2,9 +2,8 @@
 Browser-Extension for BA Thesis "Quantifizierung von Web-Authentifizierungs-Tasks"
 
 ## What it does
-Track how often user logs in, how much time he spends and what technique are beeing used (PW-Managers, In-Browser-PW-Manager)
-
-EDIT: Password strength measured with zxcvbn-Plugin(https://github.com/dropbox/zxcvbn)  
+Track how often user logs in, how much time he spends, what technique are beeing used (PW-Managers, In-Browser-PW-Manager) and what is the password security score 
+measured with the [zxcvbn-Plugin](https://github.com/dropbox/zxcvbn)   
 
 ## Development notes
 
