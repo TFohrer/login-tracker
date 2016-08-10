@@ -16,6 +16,12 @@ Simply run the extension with previous created profile (see: https://support.moz
     $ jpm run --profile login-tracker
 
 
+## Signing
+
+Sign exstension via 
+
+    $ jpm sign --api-key {{api-key}} --api-secret {{api-secret}}
+
 ## Debugging
 ### live reload for development
 
